@@ -1,0 +1,1715 @@
+# PROJECT ABSIDIAN — COMPLETE GAME TRANSFORMATION MASTER PROMPT
+
+## YOUR PRIMARY OBJECTIVE
+
+Transform the existing ABSIDIAN project into a fully playable, cinematic, story-driven space exploration and survival adventure game.
+
+**ABSIDIAN IS NOT AN EDUCATIONAL WEBSITE. IT IS A VIDEO GAME.**
+
+The player must experience a connected adventure that begins with a realistic crisis on Earth in 2087 and develops into an ambitious international mission to establish a sustainable human settlement on the Moon, eventually expanding toward Mars.
+
+The game must combine:
+
+- Cinematic storytelling and immersive exploration.
+- A controllable astronaut character.
+- Beautiful, interactive game environments.
+- Realistic space mission preparation.
+- Scientific engineering and resource management.
+- Survival mechanics with meaningful consequences.
+- Construction of a lunar settlement from scratch.
+- Historical contributions of women in space exploration.
+- Authentic NASA scientific information.
+- Cooperative multiplayer for up to four players.
+- Educational challenges integrated naturally into gameplay.
+
+The primary audience is children aged 7–12, but the experience should remain engaging for older players.
+
+**The player must learn science by making decisions, experimenting, exploring, building, solving problems, and observing consequences—not by reading educational webpages.**
+
+---
+
+# PART I — DEVELOPMENT REQUIREMENTS
+
+## 1. INSPECT AND PRESERVE THE EXISTING PROJECT
+
+Before implementing changes, inspect the entire existing ABSIDIAN codebase.
+
+Identify:
+
+- Current technologies and game-rendering architecture.
+- Existing scene and navigation systems.
+- Player controls and character implementations.
+- Resource management logic.
+- Mission planning functionality.
+- NASA data integrations.
+- Existing educational content.
+- Multiplayer implementation, if any.
+- Working interactive simulations.
+- Existing visual assets and animations.
+
+Do not unnecessarily delete functional code.
+
+Refactor existing systems into a coherent game architecture.
+
+For example:
+
+| Existing functionality | New in-game implementation |
+|---|---|
+| Mission Planning Dashboard | Interactive terminal inside Mission Control |
+| Resource Management Panel | Physical engineering control station |
+| NASA Scientific Database | Research computer inside the laboratory |
+| Educational Articles | Discoverable scientific information and optional tutorials |
+| Training Sections | Playable engineering challenges |
+| Mission Reports | Interactive post-mission debriefing |
+| Navigation Menus | Explorable locations and contextual interactions |
+
+The game must occupy the entire viewport and behave like a game application rather than a scrolling website.
+
+Use an appropriate browser-based game engine, preferably Three.js or Babylon.js for 3D if feasible with the existing architecture. A polished 2.5D or isometric approach is acceptable if it produces more reliable gameplay.
+
+Do not rebuild the project from scratch unless technically necessary.
+
+Prioritize a complete, functional gameplay loop over disconnected visual demonstrations.
+
+---
+
+# PART II — THE WORLD AND STORY
+
+## 2. THE YEAR 2087 — A REALISTIC FUTURE
+
+The story takes place in 2087.
+
+Over several decades, humanity has experienced increasingly serious consequences of climate change:
+
+- Extreme heat.
+- Prolonged droughts.
+- Water shortages.
+- Food production difficulties.
+- Increasing pressure on energy infrastructure.
+- Greater vulnerability of interconnected technological systems.
+
+Despite technological progress, humanity remains dependent on fragile infrastructure.
+
+Then another crisis strikes.
+
+A powerful solar storm disrupts satellite operations, navigation, communications, and electrical infrastructure across several regions.
+
+Cities experience major blackouts.
+
+Transportation and communication networks become unreliable.
+
+Emergency systems activate.
+
+The event creates international concern about humanity's dependence on centralized infrastructure.
+
+### Scientific realism
+
+The disaster must be scientifically plausible.
+
+Solar storms can interfere with satellites, radio communications, navigation systems, and electrical grids.
+
+However, the storm must not be portrayed as instantly destroying Earth or making the entire planet uninhabitable.
+
+Earth remains humanity's home.
+
+The crisis accelerates investment in resilient infrastructure and experimental off-world habitation technologies.
+
+The international scientific community expands a long-term research initiative:
+
+**PROJECT ABSIDIAN**
+
+Its mission is to investigate whether humans can establish a sustainable, partially self-sufficient settlement beyond Earth.
+
+The initial destination is the Moon.
+
+Mars becomes a later scientific objective.
+
+The project also aims to develop technologies that can improve infrastructure resilience on Earth.
+
+---
+
+# PART III — THE MAIN CHARACTER
+
+## 3. AN UNEXPECTED HERO
+
+The protagonist is a young adult engineer specializing in autonomous life-support and resource distribution systems.
+
+The player chooses the character's name, appearance, and suit customization.
+
+The protagonist is not a NASA astronaut.
+
+They never originally intended to become an astronaut.
+
+Their expertise is designing systems that allow buildings and isolated communities to operate when external supplies become limited.
+
+Their work involves:
+
+- Water recycling.
+- Energy optimization.
+- Emergency power distribution.
+- Ventilation systems.
+- Autonomous environmental monitoring.
+- Resource efficiency.
+
+The character is intelligent and capable but has no formal astronaut training.
+
+Their transformation into an astronaut must feel earned through gameplay.
+
+They are not selected because of destiny, supernatural abilities, or an unrealistic prophecy.
+
+They are selected because their engineering decisions demonstrate skills urgently needed for the ABSIDIAN mission.
+
+---
+
+# PART IV — THE FIRST PLAYER EXPERIENCE
+
+## 4. FULL-SCREEN TITLE SCREEN
+
+When ABSIDIAN opens, display an animated cinematic title screen.
+
+Show:
+
+**ABSIDIAN**
+
+**SURVIVAL IS A DECISION.**
+
+A secondary tagline may appear:
+
+*Build Your Mission. Shape the Future.*
+
+The background features a beautiful animated space environment with:
+
+- A distant rotating Earth.
+- Subtle star fields.
+- Spacecraft silhouettes.
+- Cinematic atmospheric lighting.
+- Slow camera movement.
+- Original ambient music.
+- Elegant particle effects.
+
+Display only four primary actions:
+
+1. START ADVENTURE
+2. PLAY WITH FRIENDS
+3. CONTINUE
+4. SETTINGS
+
+Use smooth transitions, polished typography, and a consistent visual identity.
+
+Do not display dashboards, educational cards, or website navigation.
+
+## 5. PLAYER ENTRY AND CUSTOMIZATION
+
+After selecting Start Adventure, allow players to:
+
+- Create an account.
+- Sign in.
+- Continue as a guest.
+
+Registration must be optional.
+
+Use a minimal, child-friendly interface that does not request unnecessary personal information.
+
+Guest progress should be saved locally when technically feasible.
+
+For accounts, use appropriate secure authentication and privacy safeguards.
+
+Allow players to customize:
+
+- Astronaut name.
+- Character appearance.
+- Spacesuit colors.
+- Suit accessories.
+- Optional specialization preferences.
+
+Possible future specializations include:
+
+- Systems Engineering.
+- Navigation.
+- Scientific Research.
+- Communications.
+
+Specializations should influence available responsibilities without preventing players from experiencing the main story.
+
+---
+
+# PART V — CINEMATIC PROLOGUE
+
+## 6. OPENING CINEMATIC — HUMANITY'S JOURNEY
+
+After character creation, begin a full-screen cinematic.
+
+The screen fades from black.
+
+Stars gradually appear.
+
+The camera travels through space.
+
+Earth slowly comes into view.
+
+Narration:
+
+"Every great journey begins with a question."
+
+"How far can humanity go?"
+
+Show cinematic visualizations of humanity's scientific progress and space exploration.
+
+Briefly introduce pioneering women whose contributions helped make space exploration possible.
+
+Include historically accurate references to:
+
+- Margaret Hamilton — Apollo flight software engineering.
+- Katherine Johnson — orbital trajectory calculations.
+- Valentina Tereshkova — first woman in space.
+- Christina Koch — long-duration spaceflight and scientific missions.
+- Sally Ride — first American woman in space.
+- Mae Jemison — first Black woman in space.
+- Kalpana Chawla — aerospace engineer and astronaut.
+- Dorothy Vaughan — mathematician and computing pioneer.
+- Mary Jackson — NASA's first Black female engineer.
+- Nancy Grace Roman — pioneering NASA astronomer associated with space telescope development.
+
+Use archival-inspired visuals or clearly identified educational simulations.
+
+Do not invent achievements or imply that historical figures personally participate in the fictional 2087 mission.
+
+Narration continues:
+
+"Generations of scientists, engineers, and astronauts made the impossible possible."
+
+"But exploration has never been without challenges."
+
+Transition from historical space exploration to Earth in 2087.
+
+---
+
+## 7. CINEMATIC — THE SOLAR STORM
+
+Show Earth from orbit.
+
+Solar activity intensifies.
+
+The camera moves toward a futuristic city.
+
+Streetlights flicker.
+
+Communication systems begin failing.
+
+Satellites lose functionality.
+
+A citywide blackout spreads across the landscape.
+
+Emergency sirens activate.
+
+The camera approaches a research facility.
+
+Inside, the protagonist is working late.
+
+Suddenly, the main electrical system fails.
+
+Red emergency lights illuminate the laboratory.
+
+Computer displays show warnings.
+
+The cinematic camera moves behind the protagonist.
+
+The perspective transitions smoothly into third-person gameplay.
+
+**The player receives control for the first time.**
+
+---
+
+# PART VI — FIRST PLAYABLE MISSION
+
+## 8. PROLOGUE MISSION: THE BLACKOUT
+
+Mission title:
+
+**PROLOGUE — WHEN THE LIGHTS WENT OUT**
+
+Objective:
+
+**Keep the research facility operational during the emergency.**
+
+The player must physically explore the laboratory.
+
+The environment contains:
+
+- Emergency generators.
+- Ventilation equipment.
+- Water recycling machinery.
+- Electrical distribution panels.
+- Computer terminals.
+- Interactive doors.
+- Maintenance equipment.
+- Scientists and technicians.
+- Environmental alarms.
+
+The facility has limited backup power.
+
+There is not enough energy to operate every system simultaneously.
+
+The player must make decisions about which systems receive electricity.
+
+### Interactive gameplay
+
+The player must:
+
+1. Locate the emergency control room.
+2. Inspect the facility's power system.
+3. Identify the available energy supply.
+4. Investigate malfunctioning equipment.
+5. Complete a playable engineering repair challenge.
+6. Redistribute power between essential systems.
+7. Restore critical ventilation and water systems.
+8. Stabilize the facility.
+
+Every decision affects the environment.
+
+For example:
+
+If the player powers nonessential laboratory equipment, less electricity remains for ventilation.
+
+If water recycling loses power, available clean water gradually decreases.
+
+If communications are disabled, requesting outside assistance becomes more difficult.
+
+Successful decisions visibly stabilize the facility.
+
+Lights return to selected areas.
+
+Ventilation equipment restarts.
+
+Alarms become less frequent.
+
+The player sees the effects of their actions rather than simply receiving a success message.
+
+This mission must serve as the game's natural movement, interaction, and engineering tutorial.
+
+Use concise dialogue and visual instructions.
+
+---
+
+# PART VII — THE INVITATION
+
+## 9. THE MYSTERIOUS MESSAGE
+
+After the facility is stabilized, show a short cinematic.
+
+The storm continues outside.
+
+The research center remains operational.
+
+The next morning, the protagonist receives a message:
+
+"Your system remained operational when others failed."
+
+"We have been studying your work."
+
+"There is a project we believe you should see."
+
+"ABSIDIAN."
+
+Coordinates appear on the screen.
+
+The player must investigate the invitation.
+
+A short playable transition leads toward a remote international research complex.
+
+The player arrives at a security checkpoint and enters the facility.
+
+The location is revealed as:
+
+**THE ABSIDIAN ASTRONAUT ACADEMY**
+
+---
+
+# PART VIII — THE ASTRONAUT ACADEMY
+
+## 10. CHAPTER 1 — THE BEGINNING
+
+Create a cinematic arrival sequence.
+
+A futuristic transport vehicle approaches a large astronaut training complex.
+
+The camera follows the vehicle.
+
+The transport stops.
+
+The doors open.
+
+The protagonist steps outside.
+
+Display:
+
+**CHAPTER 1**
+
+**THE BEGINNING**
+
+Then:
+
+"Welcome to the Astronaut Academy."
+
+The camera transitions into third-person gameplay.
+
+The player can freely explore the environment.
+
+Do not open a dashboard automatically.
+
+The player must physically enter the facility.
+
+### Academy environment
+
+Build a connected, explorable environment containing:
+
+- Main entrance.
+- Mission Control.
+- Software Engineering Laboratory.
+- Orbital Navigation Laboratory.
+- Astronaut Training Center.
+- Life-Support Simulation Facility.
+- Emergency Training Chamber.
+- Spacecraft Design Laboratory.
+- Research Center.
+- Rocket Hangar.
+- Crew Preparation Area.
+
+Include animated scientists, instructors, service robots, interactive terminals, doors, elevators, corridors, and environmental sounds.
+
+NPCs should have basic movement and interaction behaviors.
+
+Use contextual prompts:
+
+"Press E to Talk"
+
+"Press E to Inspect"
+
+"Press E to Enter"
+
+Conversations should appear as concise cinematic dialogue panels with character portraits and optional voice narration.
+
+---
+
+## 11. WHY THE PLAYER WAS CHOSEN
+
+Inside the academy, the protagonist meets the program director.
+
+The director explains that PROJECT ABSIDIAN has been developing technologies for a future lunar settlement.
+
+However, the systems compete for limited resources.
+
+Oxygen production consumes electricity.
+
+Water recycling requires functioning equipment.
+
+Greenhouses need water, light, and energy.
+
+Scientific instruments create additional electrical demand.
+
+Radiation protection imposes operational constraints.
+
+The program needs someone who understands how these interconnected systems affect one another.
+
+The protagonist's successful response to the blackout demonstrated precisely that skill.
+
+The director explains:
+
+"We don't need someone who can make one system perfect."
+
+"We need someone who understands what happens when every system depends on another."
+
+The protagonist is invited to complete a special astronaut preparation program.
+
+They are not immediately appointed mission commander.
+
+Their responsibilities increase as they successfully complete training and demonstrate engineering judgment.
+
+---
+
+# PART IX — REAL ASTRONAUT TRAINING
+
+## 12. CHAPTER 2 — THE TRAINING
+
+Training must resemble simplified versions of real astronaut preparation.
+
+The player should physically visit different training facilities.
+
+Include:
+
+- Spacecraft systems familiarization.
+- Emergency response procedures.
+- Life-support training.
+- Navigation and trajectory planning.
+- Simulated extravehicular activity.
+- Equipment maintenance.
+- Team communication.
+- Mission planning.
+- Resource management.
+- Scientific experimentation.
+
+Each training activity must be a playable challenge.
+
+Historical mentors appear through clearly labeled educational recordings or fictional AI simulations based on documented achievements.
+
+### Training Mission A — Software Engineering
+
+Historical mentor: Margaret Hamilton.
+
+Location: Spacecraft Software Laboratory.
+
+A simulated spacecraft navigation system experiences a software fault.
+
+The player must investigate the system and complete a visual debugging puzzle.
+
+They identify incorrect instructions or faulty logic.
+
+Correcting the problem changes the simulated spacecraft's behavior.
+
+The game briefly explains the importance of reliable software in space missions.
+
+### Training Mission B — Orbital Navigation
+
+Historical mentor: Katherine Johnson.
+
+Location: Orbital Navigation Laboratory.
+
+The player approaches an interactive orbital display.
+
+They adjust simplified trajectory parameters.
+
+A spacecraft moves along the calculated route.
+
+Incorrect values cause visible navigation errors.
+
+The player learns that orbital missions require precise calculations and careful planning.
+
+### Training Mission C — Survival Systems
+
+Educational mentor: Christina Koch.
+
+Location: Lunar Environment Simulator.
+
+The player enters a simulated lunar training environment.
+
+Oxygen reserves gradually decrease.
+
+The player must locate and reach a functioning life-support station.
+
+They must inspect oxygen equipment, manage suit resources, and return safely.
+
+The simulation teaches that oxygen cannot regenerate without an actual supply or functioning system.
+
+### Training Mission D — Emergency Response
+
+Historical mentor: Valentina Tereshkova.
+
+Location: Spacecraft Emergency Simulator.
+
+An alarm activates.
+
+The player investigates a malfunctioning spacecraft system.
+
+They identify the affected component and complete an interactive repair challenge.
+
+The simulator responds to the player's decisions.
+
+### Additional training
+
+Use other historical pioneers to introduce optional scientific and engineering activities.
+
+All historical information must remain accurate, clearly attributed, and appropriate for younger audiences.
+
+---
+
+# PART X — THE FINAL ACADEMY TEST
+
+## 13. AUTONOMOUS HABITAT SIMULATION
+
+Before joining the space mission, the player must complete an integrated engineering challenge.
+
+The player enters a realistic training habitat that simulates a small lunar settlement.
+
+The objective is to keep the habitat operational for several simulated days.
+
+The player must manage:
+
+- Oxygen production.
+- Water recycling.
+- Electrical power.
+- Food supplies.
+- Equipment maintenance.
+- Crew safety.
+- Scientific operations.
+
+Initially, the systems function normally.
+
+Then problems develop.
+
+Solar energy production decreases.
+
+Water recycling equipment requires maintenance.
+
+Scientific experiments compete with life-support systems for electricity.
+
+The player must prioritize critical systems.
+
+There must be multiple viable solutions.
+
+Evaluate the player's performance using:
+
+- Crew safety.
+- Resource efficiency.
+- Scientific progress.
+- Engineering decisions.
+- Mission stability.
+- Team cooperation.
+
+After successful completion, the program director offers the protagonist a position as a life-support and resource systems specialist.
+
+Following additional mission preparation, the protagonist earns responsibility for lunar base operations.
+
+---
+
+# PART XI — MISSION DESIGN AND LAUNCH
+
+## 14. CHAPTER 3 — DESIGN YOUR MISSION
+
+The player enters Mission Control.
+
+Mission planning occurs through a large interactive holographic engineering table.
+
+The player must design a realistic lunar mission.
+
+They choose and balance:
+
+- Spacecraft equipment.
+- Crew supplies.
+- Power generation.
+- Oxygen reserves.
+- Water storage.
+- Food supplies.
+- Scientific instruments.
+- Habitat components.
+- Construction equipment.
+- Emergency supplies.
+- Available cargo mass and volume.
+
+The player cannot carry unlimited equipment.
+
+Adding one system may require removing another.
+
+The design interface must visualize engineering consequences.
+
+For example:
+
+Adding additional scientific equipment increases mass and electrical demand.
+
+Carrying more emergency supplies reduces space for construction equipment.
+
+The mission planner should explain the consequences through visual feedback.
+
+Use scientifically reasonable simplified models, with advanced information available optionally.
+
+---
+
+## 15. CHAPTER 4 — THE LAUNCH
+
+After mission approval, the player travels to the spaceport.
+
+Create a cinematic sequence featuring:
+
+- Rocket preparation.
+- Crew suit checks.
+- Boarding procedures.
+- Spacecraft interior.
+- Final mission checks.
+- Countdown.
+- Engine ignition.
+- Rocket liftoff.
+- Ascent through Earth's atmosphere.
+- Stage separation.
+- Orbital insertion.
+
+The player must actually board the rocket.
+
+During preparation, they complete short interactive tasks.
+
+The launch should be visually dramatic but scientifically grounded.
+
+Show the rocket lifting off from an exterior camera.
+
+Then transition to the spacecraft interior.
+
+The player experiences the ascent through camera movement, sound, animation, and changing displays.
+
+Avoid presenting launch as a simple button followed by a static image.
+
+---
+
+# PART XII — THE JOURNEY TO THE MOON
+
+## 16. CHAPTER 5 — THE JOURNEY
+
+The spacecraft becomes a playable environment.
+
+The player can:
+
+- Move inside appropriate spacecraft sections.
+- Interact with crew members.
+- Inspect equipment.
+- Monitor life-support systems.
+- Check navigation.
+- Perform maintenance.
+- Observe Earth through windows.
+- Respond to mission events.
+
+Include realistic simplified orbital and translunar flight concepts.
+
+The spacecraft should not move like an airplane.
+
+Use appropriate visualizations for orbital trajectories, spacecraft orientation, and propulsion.
+
+Resource consumption continues throughout the journey.
+
+Food, water, oxygen, and energy remain limited.
+
+Communication with Earth should include appropriate signal delays based on distance.
+
+During the journey, the player may encounter equipment faults or resource allocation challenges.
+
+---
+
+# PART XIII — LUNAR EXPLORATION AND CONSTRUCTION
+
+## 17. CHAPTER 6 — THE MOON
+
+Create a cinematic lunar landing.
+
+The player observes the Moon approaching.
+
+The spacecraft descends toward a selected landing region.
+
+After landing, the player prepares for their first surface expedition.
+
+The player exits through an airlock.
+
+The camera reveals a large explorable lunar landscape.
+
+The lunar environment should include:
+
+- Craters.
+- Rocky terrain.
+- Regolith.
+- Long shadows.
+- Scientific sampling locations.
+- Potential construction areas.
+- Hazardous terrain.
+- Distant landscape features.
+
+Use scientifically grounded lunar gravity and environmental conditions.
+
+### Critical requirement
+
+**THE PLAYER MUST BUILD THE LUNAR BASE FROM SCRATCH.**
+
+Do not begin with a fully operational settlement.
+
+The mission may provide a lander, limited emergency shelter, cargo, and construction equipment, but the permanent base must be developed by the player.
+
+### Construction gameplay
+
+The player must:
+
+1. Survey the landing region.
+2. Select a suitable construction site.
+3. Unload cargo.
+4. Position the first habitat module.
+5. Install solar panels.
+6. Connect electrical infrastructure.
+7. Establish life-support equipment.
+8. Activate water recycling.
+9. Install radiation protection.
+10. Construct a greenhouse.
+11. Expand scientific facilities.
+12. Maintain and upgrade the settlement.
+
+Buildings must appear physically in the game world.
+
+Construction requires appropriate materials, energy, time, and equipment.
+
+Players should be able to walk around completed structures and enter functional buildings.
+
+The base layout should influence efficiency and operational risk.
+
+---
+
+# PART XIV — INTERCONNECTED RESOURCE SYSTEMS
+
+## 18. REAL ENGINEERING TRADE-OFFS
+
+The central educational requirement of ABSIDIAN is to demonstrate how engineering decisions affect mission survival.
+
+Implement interconnected systems for:
+
+- Oxygen and life support.
+- Electrical power.
+- Water.
+- Food production.
+- Radiation protection.
+- Communications.
+- Scientific research.
+- Equipment maintenance.
+
+Resources must follow consistent rules.
+
+Use understandable simplified calculations based on real engineering principles.
+
+### Example: Power distribution
+
+The lunar base produces a limited amount of electricity.
+
+The player activates a scientific instrument.
+
+The instrument requires additional power.
+
+The player must decide whether to:
+
+- Reduce power to a noncritical system.
+- Delay the experiment.
+- Use stored battery energy.
+- Install additional power generation.
+
+If life support receives insufficient electricity, oxygen production may decrease.
+
+If greenhouse lighting is reduced, plant growth slows.
+
+If communication equipment loses power, scientific results cannot be transmitted.
+
+The game world must react visually and mechanically.
+
+### Example: Water management
+
+Water is used for:
+
+- Drinking.
+- Hygiene.
+- Food production.
+- Selected life-support processes.
+
+Water recycling recovers part of the used water, but the system requires energy and maintenance.
+
+Recycling must not create unlimited water.
+
+### Example: Radiation protection
+
+Players must consider radiation exposure during surface activities.
+
+Shelters, shielding materials, and mission scheduling influence safety.
+
+Solar radiation events may require the crew to return to protected areas.
+
+These mechanics should be simplified for children without misrepresenting the underlying science.
+
+---
+
+# PART XV — SURVIVAL AND FAILURE
+
+## 19. NO AUTOMATIC RESOURCE REGENERATION
+
+Implement a persistent survival system.
+
+Track:
+
+- Health.
+- Oxygen.
+- Suit energy.
+- Stamina.
+- Food.
+- Water.
+- Environmental safety.
+
+Oxygen decreases in unpressurized environments unless supplied by functioning equipment.
+
+Suit energy decreases when equipment is used.
+
+Health does not automatically regenerate.
+
+Stamina may recover through appropriate rest, provided necessary environmental conditions are met.
+
+Resources must only be restored through legitimate gameplay actions.
+
+Examples include:
+
+- Refilling oxygen from a functioning supply station.
+- Recharging batteries.
+- Drinking available water.
+- Eating stored or produced food.
+- Receiving medical assistance.
+- Repairing life-support equipment.
+
+Resources must persist between scenes and locations.
+
+Opening a menu or entering a building must not reset supplies.
+
+### Critical emergencies
+
+If oxygen reaches zero, activate a time-limited critical emergency state.
+
+The player may attempt to reach safety.
+
+In multiplayer, teammates may attempt a rescue.
+
+If rescue fails, show a non-graphic mission failure sequence.
+
+### Recovery system
+
+Implement an optional in-game credit system.
+
+Players earn credits through:
+
+- Completing missions.
+- Scientific discoveries.
+- Efficient engineering.
+- Exploration achievements.
+- Teamwork.
+
+After a mission failure, the player may choose:
+
+**RESTART MISSION** — Restart from the beginning of the mission.
+
+**EMERGENCY RECOVERY** — Spend earned in-game credits to restore a valid checkpoint.
+
+Do not use real-money purchases, gambling, or manipulative monetization.
+
+Credits must not create unlimited survival resources or eliminate the engineering challenge.
+
+Provide an accessible recovery option so younger players are not unfairly blocked.
+
+---
+
+# PART XVI — EMERGENCIES AND SCIENTIFIC MISSIONS
+
+## 20. CHAPTER 7 — THE FIRST CRISIS
+
+After establishing the initial lunar habitat, introduce a serious but scientifically plausible emergency.
+
+Possible events include:
+
+- A power distribution failure.
+- A life-support malfunction.
+- Damage to external equipment.
+- A solar radiation warning.
+- A water recycling problem.
+- A communications failure.
+
+The crisis must be resolved through physical gameplay.
+
+For example, repairing oxygen equipment requires the player to:
+
+1. Receive an emergency warning.
+2. Locate the malfunctioning module.
+3. Travel to the module.
+4. Inspect the equipment.
+5. Diagnose the failure.
+6. Obtain necessary replacement parts.
+7. Complete an interactive repair puzzle.
+8. Restart the system.
+9. Verify that oxygen production has resumed.
+
+The player must observe the consequences of successful or unsuccessful actions.
+
+### Scientific exploration
+
+Include playable scientific sampling missions.
+
+The player explores the surface, locates samples, uses scientific instruments, and returns materials to the laboratory.
+
+A scientific analysis mini-game reveals discoveries.
+
+Research results unlock additional technologies, mission knowledge, or optional exploration opportunities.
+
+---
+
+# PART XVII — MARS AND ADVANCED EXPLORATION
+
+## 21. CHAPTER 8 — THE MARS EXPEDITION
+
+Mars exploration becomes available after major lunar mission objectives are completed.
+
+It must be treated as a distinct, demanding mission rather than an instant journey.
+
+The player must plan:
+
+- Spacecraft capabilities.
+- Propellant requirements.
+- Mission duration.
+- Life-support supplies.
+- Communication delays.
+- Scientific equipment.
+- Habitat construction.
+- Emergency contingencies.
+
+Create a separate Martian environment featuring:
+
+- Rocky landscapes.
+- Dust.
+- Canyons and geological formations.
+- Research facilities.
+- Exploration vehicles.
+- Construction zones.
+- Scientific sampling areas.
+
+Mars has different gravity, atmosphere, temperature, and communication conditions from the Moon.
+
+The player must adapt their strategy accordingly.
+
+### Mars gameplay
+
+Include:
+
+- Surface exploration.
+- Habitat construction.
+- Scientific experiments.
+- Water resource investigations.
+- Power management.
+- Dust-related equipment challenges.
+- Greenhouse development.
+- Long-distance communications.
+- Cooperative maintenance missions.
+
+Do not reuse the lunar environment without meaningful scientific and gameplay differences.
+
+---
+
+## 22. CHAPTER 9 — BEYOND MARS
+
+Offer optional advanced missions and destinations through appropriate simulation scenarios.
+
+Possible activities include:
+
+- Robotic exploration of distant environments.
+- Advanced orbital mission planning.
+- Deep-space communication challenges.
+- Scientific probe design.
+- Autonomous spacecraft operations.
+
+These activities must remain scientifically plausible.
+
+Do not imply that all destinations are realistically reachable by a crewed mission using the same spacecraft.
+
+---
+
+# PART XVIII — FINAL CHAPTERS
+
+## 23. CHAPTER 10 — THE FINAL MISSION
+
+Introduce a complex engineering challenge that combines previously learned mechanics.
+
+The player must coordinate:
+
+- Life support.
+- Power distribution.
+- Crew safety.
+- Scientific objectives.
+- Communications.
+- Equipment repairs.
+- Resource conservation.
+
+There should be multiple viable strategies.
+
+The player's decisions determine the final mission outcome.
+
+## 24. CHAPTER 11 — RETURN TO EARTH
+
+Create a cinematic return sequence appropriate to the mission architecture.
+
+Include:
+
+- Mission departure preparations.
+- Return trajectory planning.
+- Spacecraft systems checks.
+- Journey home.
+- Atmospheric reentry where applicable.
+- Landing or recovery.
+- Crew debriefing.
+
+Avoid treating interplanetary travel as instantaneous.
+
+## 25. CHAPTER 12 — THE LEGACY
+
+The player returns to Mission Control for a final debriefing.
+
+Present an interactive summary of:
+
+- Scientific discoveries.
+- Mission achievements.
+- Resource efficiency.
+- Crew safety.
+- Engineering decisions.
+- Base development.
+- Team cooperation.
+- Areas for improvement.
+
+Explain how technologies developed for space exploration can also improve life on Earth.
+
+Generate a personalized mission report and achievement certificate.
+
+Allow replaying missions to explore different strategies.
+
+---
+
+# PART XIX — MULTIPLAYER
+
+## 26. COOPERATIVE EXPLORATION
+
+Support private cooperative multiplayer for up to four players.
+
+Players must be able to:
+
+- Create a private mission room.
+- Join through an invitation code.
+- Customize individual astronauts.
+- Explore the same game world.
+- See synchronized player movement.
+- Complete shared objectives.
+- Collaborate on construction.
+- Share appropriate mission resources.
+- Repair equipment together.
+- Respond to emergencies.
+- Participate in joint scientific research.
+
+Use real server-authoritative networking.
+
+Do not simulate multiplayer using decorative player icons or fake teammates.
+
+Keep the single-player experience fully functional.
+
+### Cooperative roles
+
+Players may specialize in:
+
+- Mission Operations.
+- Engineering.
+- Scientific Research.
+- Communications and Navigation.
+
+Roles should encourage teamwork without making missions impossible when fewer than four players are present.
+
+### Child safety
+
+Use private invitation codes.
+
+Do not implement unrestricted public chat, public player discovery, or unnecessary sharing of personal information.
+
+Provide preset communication options such as:
+
+- "I need help!"
+- "Oxygen is low!"
+- "Repair complete!"
+- "Meet at the base!"
+- "Power restored!"
+
+---
+
+# PART XX — DIFFICULTY LEVELS
+
+## 27. THREE DIFFICULTY MODES
+
+Implement three selectable difficulty levels.
+
+### EXPLORER — EASY
+
+Designed for younger or first-time players.
+
+Features:
+
+- Clear instructions.
+- More generous supplies.
+- Slower resource consumption.
+- Additional visual guidance.
+- More forgiving mission recovery.
+- Simplified engineering challenges.
+
+### ENGINEER — NORMAL
+
+Balanced survival and engineering gameplay.
+
+Features:
+
+- Moderate resource limitations.
+- More complex equipment.
+- Meaningful engineering trade-offs.
+- Environmental emergencies.
+- A helpful service robot.
+
+The robot can provide limited assistance with scanning, transporting small items, or identifying maintenance problems.
+
+It must not solve every challenge automatically.
+
+### COMMANDER — HARD
+
+Designed for experienced players.
+
+Features:
+
+- Tighter resource constraints.
+- More demanding mission planning.
+- Greater equipment maintenance needs.
+- More complex emergencies.
+- Reduced assistance.
+- Higher consequences for inefficient decisions.
+
+Difficulty must not alter fundamental scientific principles.
+
+---
+
+# PART XXI — CONTROLS AND GAME INTERFACE
+
+## 28. PLAYER CONTROLS
+
+### Desktop
+
+- WASD / Arrow Keys — Move.
+- Mouse — Camera control where appropriate.
+- E — Interact.
+- Space — Primary action.
+- I — Inventory.
+- M — Map.
+- J — Mission Journal.
+- Esc — Pause.
+
+### Mobile
+
+Provide:
+
+- Functional virtual joystick.
+- Context-sensitive interaction button.
+- Primary action button.
+- Touch camera controls.
+- Accessible inventory and map buttons.
+
+Movement must be smooth.
+
+Implement collision detection.
+
+The camera must follow the player.
+
+Environments must extend beyond the visible screen.
+
+Buildings and objects must have meaningful collision boundaries.
+
+---
+
+## 29. PREMIUM VISUAL DESIGN
+
+The visual experience should resemble a polished independent adventure game with the accessibility and social exploration of high-quality cooperative Roblox experiences.
+
+Do not copy Roblox assets or existing games.
+
+Use an original artistic identity.
+
+Preferred visual characteristics:
+
+- Stylized 3D or polished 2.5D environments.
+- Detailed environmental artwork.
+- Expressive character animations.
+- Cinematic camera movement.
+- Dynamic lighting.
+- Subtle particle effects.
+- Smooth transitions.
+- Atmospheric sound design.
+- Original background music.
+- Consistent colors and materials.
+
+Use modern iOS-inspired UI principles.
+
+Include:
+
+- Frosted-glass overlays.
+- Soft rounded panels.
+- Elegant typography.
+- Minimal on-screen clutter.
+- Clear interactive feedback.
+- Accessible color contrast.
+- Optional subtitles.
+- Reduced-motion settings.
+- Adjustable audio.
+
+### Gameplay HUD
+
+Top-left:
+
+Health, oxygen, stamina.
+
+Top-center:
+
+Current objective.
+
+Top-right:
+
+Mini-map and settings.
+
+Bottom-left:
+
+Movement controls when needed.
+
+Bottom-right:
+
+Contextual actions.
+
+The game world must remain the primary visual focus.
+
+Avoid large informational panels during exploration.
+
+---
+
+# PART XXII — AUTHENTIC NASA SCIENCE
+
+## 30. SCIENTIFIC ACCURACY AND DATA INTEGRATION
+
+Use verified scientific information wherever feasible.
+
+Potential sources include:
+
+- NASA DONKI.
+- NASA OSDR.
+- NASA Artemis resources.
+- NASA lunar exploration resources.
+- NASA Mars exploration datasets.
+
+Use real scientific information to inform:
+
+- Space weather.
+- Radiation hazards.
+- Lunar conditions.
+- Mars environmental characteristics.
+- Biological experiments.
+- Scientific discoveries.
+- Mission planning.
+
+Clearly distinguish authentic measurements from simplified game simulation values.
+
+Never invent NASA measurements or present fictional future events as documented NASA observations.
+
+The 2087 solar storm is fictional but scientifically plausible.
+
+Use clearly labeled fictional scenarios when live data does not correspond to the game's historical setting.
+
+Scientific explanations should appear through optional interactive terminals, short dialogue, and post-mission feedback.
+
+Do not interrupt gameplay with long articles.
+
+---
+
+# PART XXIII — TECHNICAL GAME SYSTEMS
+
+## 31. CORE GAME ARCHITECTURE
+
+Implement a maintainable architecture with separate systems for:
+
+- Game states.
+- Scene transitions.
+- Player movement.
+- Camera controls.
+- Collision detection.
+- NPC behavior.
+- Interaction detection.
+- Dialogue.
+- Cinematics.
+- Mission objectives.
+- Inventory.
+- Resource simulation.
+- Building construction.
+- Scientific mini-games.
+- Save and load.
+- Multiplayer networking.
+- Audio.
+- Accessibility.
+- NASA data integration.
+
+### Game states
+
+Use explicit states such as:
+
+- TITLE_SCREEN
+- PLAYER_SETUP
+- INTRO_CINEMATIC
+- PROLOGUE
+- ACADEMY
+- TRAINING
+- MISSION_PLANNING
+- LAUNCH
+- SPACEFLIGHT
+- LUNAR_EXPLORATION
+- BASE_CONSTRUCTION
+- MARS_EXPEDITION
+- MISSION_DEBRIEF
+- PAUSED
+
+Scene transitions must preserve relevant player progress and resources.
+
+### Save system
+
+Persist:
+
+- Player identity and customization.
+- Completed objectives.
+- Current chapter.
+- Inventory.
+- Resource quantities.
+- Building progress.
+- Scientific discoveries.
+- Earned credits.
+- Difficulty settings.
+
+Never reset resources simply because a scene changes.
+
+### Resource simulation
+
+Use a consistent update loop.
+
+Consumption and production must depend on:
+
+- Equipment operating status.
+- Available energy.
+- Environmental conditions.
+- Crew requirements.
+- Equipment efficiency.
+- Player decisions.
+
+Avoid arbitrary resource restoration.
+
+### Performance
+
+Optimize for browser execution.
+
+Use efficient rendering, sensible asset loading, and appropriate quality settings.
+
+Support desktop and mobile where feasible.
+
+---
+
+# PART XXIV — REQUIRED FIRST PLAYABLE EXPERIENCE
+
+## 32. IMPLEMENT THIS COMPLETE VERTICAL SLICE FIRST
+
+Before expanding the entire game, implement one connected, genuinely playable sequence.
+
+The required sequence is:
+
+1. The player opens ABSIDIAN.
+2. The animated title screen appears.
+3. The player selects Start Adventure.
+4. The player creates an astronaut or continues as a guest.
+5. The cinematic introduction begins.
+6. The 2087 solar storm strikes Earth.
+7. The player gains control inside the research laboratory.
+8. The player explores the laboratory.
+9. The player repairs equipment and distributes limited energy.
+10. The facility responds visibly to their decisions.
+11. The protagonist receives the mysterious ABSIDIAN invitation.
+12. The player arrives at the Astronaut Academy.
+13. The player exits the transport vehicle.
+14. The player explores the academy using functional movement controls.
+15. The player approaches and interacts with the program director.
+16. The player receives the first training objective.
+17. The player walks to the appropriate laboratory.
+18. The player completes a playable engineering challenge.
+19. The environment responds to the outcome.
+20. The mission journal updates.
+21. The next training objective becomes available.
+22. The game saves progress correctly.
+
+All 22 steps must function as one continuous gameplay experience.
+
+Do not create static pages that merely imitate these events.
+
+The player must actually control the character, move between locations, interact with objects, and complete challenges.
+
+This vertical slice is the first major development milestone.
+
+---
+
+# PART XXV — DEVELOPMENT PRIORITIES
+
+## 33. IMPLEMENT IN STAGES
+
+Follow this priority order:
+
+**STAGE 1 — FOUNDATION**
+
+Inspect the codebase, establish the game architecture, create the full-screen title screen, implement player customization, movement, camera, collision, and interactions.
+
+**STAGE 2 — STORY PROLOGUE**
+
+Implement the cinematic introduction, solar storm, research laboratory, and first engineering challenge.
+
+**STAGE 3 — ACADEMY**
+
+Implement academy arrival, explorable training center, NPCs, dialogue, and first training mission.
+
+**STAGE 4 — CORE SYSTEMS**
+
+Implement persistent resources, inventory, mission objectives, save/load, and engineering trade-offs.
+
+**STAGE 5 — MISSION PREPARATION**
+
+Implement additional training, mission design, equipment selection, and mission readiness checks.
+
+**STAGE 6 — SPACEFLIGHT**
+
+Implement rocket boarding, launch, spacecraft interior, orbital journey, and lunar landing.
+
+**STAGE 7 — LUNAR GAMEPLAY**
+
+Implement lunar exploration, construction from scratch, life-support systems, scientific research, and emergencies.
+
+**STAGE 8 — COOPERATIVE MULTIPLAYER**
+
+Implement private rooms, synchronized movement, shared mission state, and cooperative objectives.
+
+**STAGE 9 — MARS AND ADVANCED MISSIONS**
+
+Implement Mars exploration and additional scientifically grounded mission content.
+
+**STAGE 10 — FINAL POLISH**
+
+Improve graphics, animations, sound, accessibility, performance, testing, and the complete mission experience.
+
+At each stage:
+
+- Preserve existing working functionality.
+- Implement real gameplay mechanics.
+- Run the project.
+- Test the completed features.
+- Fix identified errors.
+- Verify progression before moving forward.
+
+Do not claim that a feature is implemented or tested unless it actually is.
+
+If a feature is incomplete, explicitly identify it as incomplete.
+
+Do not substitute mock interfaces for functional systems without clearly labeling them as temporary development placeholders.
+
+---
+
+# PART XXVI — DESIGN PHILOSOPHY
+
+## 34. LEARNING THROUGH CONSEQUENCES
+
+Every important scientific concept must be connected to something the player experiences.
+
+For example:
+
+Do not merely explain that oxygen production requires electricity.
+
+Let the player discover that reducing power to oxygen production affects the habitat.
+
+Do not simply explain that space missions require careful planning.
+
+Let the player experience the consequences of insufficient supplies.
+
+Do not explain that engineering involves compromise through a paragraph.
+
+Let the player choose between competing priorities.
+
+Do not simply state that teamwork is important.
+
+Create missions in which cooperation makes difficult tasks more manageable.
+
+Educational content should emerge naturally from gameplay.
+
+Use concise feedback after an action to explain the underlying scientific principle.
+
+The player should understand:
+
+**"My decision caused this result, and now I understand why."**
+
+---
+
+# FINAL DEVELOPMENT DIRECTIVE
+
+ABSIDIAN must feel like a complete space adventure, not a collection of educational interfaces.
+
+The player's journey is:
+
+**THE SOLAR STORM**
+
+A global infrastructure crisis reveals the importance of autonomous engineering.
+
+**THE BLACKOUT**
+
+The player saves a research facility through resource management and engineering decisions.
+
+**THE INVITATION**
+
+A mysterious international space program recognizes the player's abilities.
+
+**THE ACADEMY**
+
+The player enters a real explorable astronaut training facility.
+
+**THE TRAINING**
+
+The player earns the skills and qualifications required for spaceflight.
+
+**THE MISSION DESIGN**
+
+The player plans a spacecraft and balances critical engineering constraints.
+
+**THE LAUNCH**
+
+The player boards a rocket and experiences the journey into space.
+
+**THE MOON**
+
+The player explores an unfamiliar environment and builds a settlement from scratch.
+
+**THE SURVIVAL**
+
+The player manages limited oxygen, water, energy, food, and equipment.
+
+**THE CRISIS**
+
+Unexpected emergencies test the player's engineering judgment.
+
+**THE EXPANSION**
+
+The player advances scientific research and prepares for Mars.
+
+**THE COOPERATION**
+
+Players work together to solve problems and protect the crew.
+
+**THE LEGACY**
+
+The player discovers how scientific knowledge and engineering decisions can help humanity both in space and on Earth.
+
+The experience must be cinematic, interactive, scientifically grounded, visually beautiful, and genuinely playable.
+
+Do not prioritize website-style presentation over game mechanics.
+
+Do not generate large informational webpages.
+
+Do not replace gameplay with decorative buttons.
+
+Do not automatically complete missions without meaningful player interaction.
+
+Do not make resources unlimited.
+
+Do not fake multiplayer functionality.
+
+Do not sacrifice scientific accuracy for unrealistic mechanics.
+
+**FIRST, INSPECT THE EXISTING PROJECT. THEN BUILD AND TEST THE COMPLETE FIRST PLAYABLE SEQUENCE.**
+
+Once the first sequence works reliably, expand the game chapter by chapter.
+
+The final result should make players feel that they are not merely learning about space exploration.
+
+**THEY ARE THE EXPLORERS.**
+
+# ABSIDIAN
+
+## SURVIVAL IS A DECISION.

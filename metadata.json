@@ -1,0 +1,6 @@
+{
+  "name": "ABSIDIAN",
+  "description": "ABSIDIAN — Survival Is A Decision. A cinematic, story-driven 3D space exploration, engineering, and survival adventure game.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
